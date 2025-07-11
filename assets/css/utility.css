@@ -32,7 +32,7 @@
   align-items: center;
 }
 
-.justift-between {
+.justify-between {
   justify-content: space-between;
 }
 
@@ -48,7 +48,7 @@
   gap: 1rem;
 }
 
-.gap-1\.5rem {
+.gap-24 {
   gap: 1.5rem;
 }
 
