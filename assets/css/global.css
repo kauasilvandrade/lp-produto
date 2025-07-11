@@ -24,7 +24,7 @@ html {
   line-height: 1.6;
   color: var(--text-color-secondary);
 
-  overflow: hidden;
+  /* overflow: hidden; */
   scroll-behavior: smooth;
 }
 

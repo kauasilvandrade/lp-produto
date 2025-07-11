@@ -1,3 +1,9 @@
+.highlight {
+  font: var(--fw-md) var(--fs-sm) var(--ff-sans);
+  color: var(--brand-color-primary);
+  text-transform: uppercase;
+}
+
 .btn {
   --btn-bg-color: var(--text-color-primary);
   --btn-color: var(--bg-color);
@@ -45,12 +51,6 @@
 .btn-lg {
   padding: 1rem 2rem;
   font-size: 1.125rem;
-}
-
-.highlight {
-  font: var(--fw-md) var(--fs-sm) var(--ff-sans);
-  color: var(--brand-color-primary);
-  text-transform: uppercase;
 }
 
 .btn[aria-label] {
