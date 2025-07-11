@@ -1,3 +1,29 @@
+.desktop-only {
+  display: none;
+}
+
+.container {
+  --max-width: 23.4rem;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  margin-inline: auto;
+}
+
+.py-base {
+  padding-block: var(--py-base);
+}
+
+.py-lg {
+  padding-block: var(--py-lg);
+}
+
+.py-xl {
+  padding-block: var(--py-xl);
+}
+
+.px-lg {
+  padding-inline: var(--px-lg);
+}
+
 .flex {
   display: flex;
 }
@@ -16,4 +42,28 @@
 
 .even-columns {
   display: grid;
+}
+
+.gap-16 {
+  gap: 1rem;
+}
+
+.gap-1\.5rem {
+  gap: 1.5rem;
+}
+
+@media (width >= 80rem) {
+  .desktop-only {
+    display: initial;
+  }
+
+  .container {
+    --max-width: 80rem;
+  }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-template-columns: 1fr;
+  }
+
 }
