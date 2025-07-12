@@ -1,0 +1,35 @@
+#hero {
+  background: url(../../images/bg-hero-desktop.svg) no-repeat center bottom / contain;
+  padding-bottom: 15rem;
+
+  text-align: center;
+
+  & img, & h1 {
+    margin-bottom: 1rem;
+  }
+
+  & h2 {
+    margin-bottom: 2rem;
+    color: var(--text-color-secondary);
+    font-weight: var(--fw-md);
+  }
+
+  & div.flex {
+    max-width: 21.43rem;
+    margin: auto;
+  }
+}
+
+@media (width >= 80rem) {
+  #hero {
+
+  & img {
+    margin-bottom: 1.5rem;
+  }
+
+    & h2 {
+      margin-bottom: 3rem;
+    }
+
+  }
+}
