@@ -7,6 +7,7 @@
 @import url(partials/features-dektop.css) (width >= 80rem);
 @import url(partials/pricing.css);
 @import url(partials/download.css);
+@import url(partials/footer.css);
 
 *, 
 *::before, 
@@ -29,7 +30,6 @@ html {
   font-size: var(--fs-base);
   line-height: 1.6;
   color: var(--text-color-secondary);
-
   scroll-behavior: smooth;
 }
 

@@ -1,0 +1,34 @@
+footer {
+
+  & div.container {
+
+    & div:nth-child(1) {
+
+      gap: 4rem;
+
+      & ul[role="list"] {
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+
+    }
+
+    & div:nth-child(2) {
+      margin-bottom: 2rem;
+    }
+
+  }
+
+}
+
+@media (width >= 80rem) {
+
+    & div.container {
+
+      & ul[role="list"] {
+        margin-right: 4rem;
+      }
+
+    }
+
+}
