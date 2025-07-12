@@ -8,6 +8,7 @@
 @import url(partials/pricing.css);
 @import url(partials/download.css);
 @import url(partials/footer.css);
+@import url(partials/social.css);
 
 *, 
 *::before, 
@@ -64,7 +65,7 @@ a {
   color: inherit;
 }
 
-a:hover {
+a:not(.social):hover {
   background-image: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%);
 
   -webkit-background-clip: text;
