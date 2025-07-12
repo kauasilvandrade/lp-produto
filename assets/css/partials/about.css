@@ -1,0 +1,34 @@
+#about {
+  background-color: var(--surface-color);
+  
+  & div.container {
+    gap: 3rem;
+    flex-direction: column;
+
+
+    & div {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+  }
+
+}
+
+@media (width >= 80rem) {
+  
+  #about {
+
+    & div.container {
+      flex-direction: row;
+
+      & img {
+        max-width: 34rem;
+        order: 2;
+      }
+
+    }
+
+  }
+
+}

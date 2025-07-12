@@ -1,0 +1,59 @@
+@media (width >= 80rem) {
+  
+  #features {
+
+    & div.container {
+
+      grid-template-areas: 
+      "A B B C" 
+      "D D E E";
+
+      & .card {
+        position: relative;
+        overflow: hidden;
+
+        & div.desktop-only {
+          position: absolute;
+          width: 13.45rem;
+          top: -6.5rem;
+          right: 2rem;
+        }
+      }
+
+      & .card:nth-child(1) {
+        grid-area: A;
+      }
+      & .card:nth-child(2) {
+        grid-area: B;
+        padding-right: 17rem;
+      }
+      & .card:nth-child(3) {
+        grid-area: C;
+      }
+      & .card:nth-child(4) {
+        grid-area: D;
+        padding-left: 17rem;
+        padding-bottom: 5rem;
+        
+        div.desktop-only {
+          left: 2rem;
+        }
+      }
+      & .card:nth-child(5) {
+        grid-area: E;
+        padding-right: 17rem;
+
+        div.desktop-only {
+          top: initial;
+          left: initial;
+          bottom: -8rem;
+          right: 2rem;
+        }
+
+      }
+
+    }
+
+  }
+
+}

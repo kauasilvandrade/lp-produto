@@ -2,6 +2,9 @@
 @import url(utility.css);
 @import url(elements.css);
 @import url(partials/hero.css);
+@import url(partials/about.css);
+@import url(partials/features.css);
+@import url(partials/features-dektop.css) (width >= 80rem);
 
 *, 
 *::before, 
@@ -25,7 +28,6 @@ html {
   line-height: 1.6;
   color: var(--text-color-secondary);
 
-  /* overflow: hidden; */
   scroll-behavior: smooth;
 }
 
