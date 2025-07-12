@@ -5,6 +5,7 @@
 @import url(partials/about.css);
 @import url(partials/features.css);
 @import url(partials/features-dektop.css) (width >= 80rem);
+@import url(partials/pricing.css);
 
 *, 
 *::before, 
