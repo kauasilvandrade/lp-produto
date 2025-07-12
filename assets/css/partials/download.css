@@ -1,6 +1,6 @@
 #download {
 
-  div.container {
+  & div.container {
     background-color: var(--surface-color);
     padding-block: 3rem 14rem;
     padding-inline: 1.5rem;
@@ -18,15 +18,15 @@
       right: -3rem;
     }
 
-    h2 {
+    & h2 {
       margin-block: .5rem;
     }
 
-    p {
+    & p {
       margin-bottom: 2.5rem;
     }
 
-    div.flex {
+    & div.flex {
       flex-direction: column;
 
       img {
@@ -42,7 +42,7 @@
 
   #download {
 
-    div.container {
+    & div.container {
       padding-block: 8.75rem;
       padding-inline: 5rem;
       
@@ -53,11 +53,11 @@
         top: -4.4rem;
       }
 
-      p, div.flex {
+      & p, & div.flex {
         max-width: 40rem;
       }
 
-      div.flex {
+      & div.flex {
         flex-direction: row;
       }
 
